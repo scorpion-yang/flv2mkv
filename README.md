@@ -8,13 +8,18 @@
 
 可自己修改main文件中
 
-修改ffmpeg的安装位置
 
-若电脑不支持独立显卡硬件加速，可以删除 -c:v h264_nvenc 
 
 ```python3
 input_folder = "floder"  	# 替换为包含FLV文件的文件夹路径
 output_folder = "floder" 	 # 替换为输出MKV文件的文件夹路径
+```
+
+修改ffmpeg的安装位置
+
+若电脑不支持独立显卡硬件加速，可以删除 -c:v h264_nvenc 
+
+```
 ffmpeg_cmd = f"E:/ffmpeg-2021-11-07-git-45dc668aea-essentials_build/bin/ffmpeg.exe -i \"{input_file_path}\" -c:v h264_nvenc \"{output_file_path}\""
 ```
 
