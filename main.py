@@ -18,8 +18,8 @@ def convert_flv_to_mkv(input_folder1, output_folder2):
 
 
 if __name__ == "__main__":
-    input_folder = "***"  # 替换为包含FLV文件的文件夹路径
-    output_folder = "***"  # 替换为输出MKV文件的文件夹路径
+    input_folder = "floder"  # 替换为包含FLV文件的文件夹路径
+    output_folder = "floder"  # 替换为输出MKV文件的文件夹路径
 
     convert_flv_to_mkv(input_folder, output_folder)
     print('1')
